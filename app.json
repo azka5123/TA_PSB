@@ -7,9 +7,10 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "width":"100px",
+      "backgroundColor": "#0096FF"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -29,5 +30,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     }
+    
   }
 }
