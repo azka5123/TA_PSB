@@ -1,12 +1,13 @@
-import React,{Fragment,useEffect} from "react";
-import { NativeBaseProvider, Box, Text, extendTheme } from "native-base";
-import SplashScreen from 'react-native-splash-screen'
+import React from 'react';
+import { Text, View } from 'react-native';
+import Home from './src/components/Home';
 
-export default function App() {
+const App = () => {
   return (
-    <NativeBaseProvider>
-      <Box alignItems="center" marginBottom="100px" marginTop="100px">Hello world</Box>
-      <Text>asSdd</Text>
-    </NativeBaseProvider>
+    <View style={{ backgroundColor:"#0096FF" }}>
+      <Home/>
+    </View>
   );
 }
+
+export default App;
