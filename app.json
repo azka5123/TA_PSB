@@ -7,7 +7,11 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
+<<<<<<< HEAD
       "image": "./src/assets/splash screen.png",
+=======
+      "image": "./src/assets/logo.png",
+>>>>>>> 47f5996b33c61a97b8ecb4884d4deebf0480521d
       "resizeMode": "contain",
       "width":"100px",
       "backgroundColor": "#0096FF"
