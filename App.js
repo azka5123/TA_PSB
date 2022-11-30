@@ -1,12 +1,9 @@
 import React from 'react';
-import { Text, View } from 'react-native';
-import Home from './src/components/Home';
+import Router1 from './src/components/Router1';
 
 const App = () => {
   return (
-    <View style={{ backgroundColor:"#0096FF" }}>
-      <Home/>
-    </View>
+      <Router1/>
   );
 }
 
