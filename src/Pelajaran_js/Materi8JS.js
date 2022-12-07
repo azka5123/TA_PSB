@@ -4,27 +4,25 @@ import Style from "../styles/Style";
 import { Card, Button, Paragraph } from "react-native-paper";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
-const Materi4 = ({ navigation }) => {
+const Materi8 = ({ navigation }) => {
   return (
     <SafeAreaView>
       <ScrollView style={{ backgroundColor: "#0096FF" }}>
         <View style={Style.container}>
           <Image style={Style.logo} source={require("../assets/logo.png")} />
-          <Text style={Style.judul}>Input pada Javascript</Text>
+          <Text style={Style.judul}>Array Javascript</Text>
           <Text style={Style.isimateri}>
-            Pada tutorial sebelumnya, kita sudah belajar 4 cara menampilkan
-            output pada Javascript Salah satunya dengan menggunakan fungsi
-            alert(). Fungsi merupakan sebuah fungsi yang akan menampikan jendela
-            dialog. Lalu pertanyaanya: Bagaimana cara mengambil input? Ada dua
-            cara yang bisa kita lakukan: Menggunakan form; dan menggunakan
-            jendela dialog. Pada artikel ini, kita akan membahas yang nomer 2.
-            Yaitu: jendela dialog. Jendela dialog merupakan jendela yang
-            digunakan untuk berinteraksi dengan pengguna. Ada tiga macam jendela
-            dialog pada Javascript: Jendela dialog alert(); Jendela dialog
-            confirm(); Jendela dialog promp(); Ketiga dialog ini memiliki
-            perilaku dan kegunaan yang berbeda-beda.
+            Sebelum kita membahas Array, kita bahas dulu apa itu struktur data?
+            Struktur data merupakan cara-cara atau metode yang digunakan untuk
+            menyimpan data di dalam memori komputer. Salah satu struktur data
+            yang sering digunakan dalam pemrograman adalah Array. Array
+            merupakan struktur data yang digunakan untuk menyimpan sekumpulan
+            data dalam satu tempat. Setiap data dalam Array memiliki indeks,
+            sehingga kita akan mudah memprosesnya.ndeks array selalu dimulai
+            dari angka nol (0). Pada teori struktur data… …Ukuran array akan
+            bergantung dari banyaknya data yang ditampung di dalamnya.
           </Text>
-          <Text style={Style.subjudul}>1. Dialog Alert</Text>
+          <Text style={Style.subjudul}>Cara Membuat Array pada Javascript</Text>
           <Text style={Style.isimateri}>
             Dialog alert() biasanya digunakan untuk menampilkan sebuah pesan
             peringatan atau informasi. Fungsi alert() berada dalam objek window.
@@ -92,4 +90,4 @@ const Materi4 = ({ navigation }) => {
   );
 };
 
-export default Materi4;
+export default Materi8;

@@ -4,36 +4,31 @@ import Style from "../styles/Style";
 import { Card, Button, Paragraph } from "react-native-paper";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
-const Materi4 = ({ navigation }) => {
+const Materi9 = ({ navigation }) => {
   return (
     <SafeAreaView>
       <ScrollView style={{ backgroundColor: "#0096FF" }}>
         <View style={Style.container}>
           <Image style={Style.logo} source={require("../assets/logo.png")} />
-          <Text style={Style.judul}>Input pada Javascript</Text>
+          <Text style={Style.judul}>Function Javascript</Text>
           <Text style={Style.isimateri}>
-            Pada tutorial sebelumnya, kita sudah belajar 4 cara menampilkan
-            output pada Javascript Salah satunya dengan menggunakan fungsi
-            alert(). Fungsi merupakan sebuah fungsi yang akan menampikan jendela
-            dialog. Lalu pertanyaanya: Bagaimana cara mengambil input? Ada dua
-            cara yang bisa kita lakukan: Menggunakan form; dan menggunakan
-            jendela dialog. Pada artikel ini, kita akan membahas yang nomer 2.
-            Yaitu: jendela dialog. Jendela dialog merupakan jendela yang
-            digunakan untuk berinteraksi dengan pengguna. Ada tiga macam jendela
-            dialog pada Javascript: Jendela dialog alert(); Jendela dialog
-            confirm(); Jendela dialog promp(); Ketiga dialog ini memiliki
-            perilaku dan kegunaan yang berbeda-beda.
+            Dalam pemrograman, fungsi/function sering digunakan untuk membungkus
+            program menjadi bagian-bagian kecil. Logika program yang ada di
+            dalam fungsi/function dapat kita gunakan kembali dengan
+            memanggilnya. Sehingga tidak perlu menulis ulang. Pada kesempatan
+            ini, kita akan belajar tentang fungsi/function di Javascript. Mulai
+            dari cara membuat, memanggil, hingga membuat program CRUD sederhana
+            dengan fungsi/function.
           </Text>
-          <Text style={Style.subjudul}>1. Dialog Alert</Text>
+          <Text style={Style.subjudul}>Apa itu Fungsi/function?</Text>
           <Text style={Style.isimateri}>
-            Dialog alert() biasanya digunakan untuk menampilkan sebuah pesan
-            peringatan atau informasi. Fungsi alert() berada dalam objek window.
-            Dialog alert() memiliki satu perameter yang harus diberikan, yaitu:
-            teks yang akan ditampilkan pada dialog.Bagaimana cara menampilkan
-            dialog alert() pada event tertentu, misalnya saat sebuah tombol
-            diklik? Ini bisa kita lakukan dengan menambahkan fungsi dialog pada
-            event listener. Pada HTML, kita bisa masukan fungsi alert() pada
-            atribut onClick agar nanti ditampilkan saat sebuah elemen diklik.
+            Fungsi adalah sub-program yang bisa digunakan kembali baik di dalam
+            program itu sendiri, maupun di program yang lain. Fungsi di dalam
+            Javascript adalah sebuah objek. Karena memiliki properti dan juga
+            method. Bagi pemula konsep ini cukup membingungkan. Apalagi yang
+            belum mengenal konsep OOP. Tapi tentang saja… Kita pelajari dulu
+            tentang fungsi, nanti saya akan bahas tentang objek di kesempatan
+            yang berbeda.
           </Text>
           <Image
             style={Style.foto}
@@ -92,4 +87,4 @@ const Materi4 = ({ navigation }) => {
   );
 };
 
-export default Materi4;
+export default Materi9;

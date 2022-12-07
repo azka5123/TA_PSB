@@ -4,25 +4,34 @@ import Style from "../styles/Style";
 import { Card, Button, Paragraph } from "react-native-paper";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
-const Materi4 = ({ navigation }) => {
+const Materi7 = ({ navigation }) => {
   return (
     <SafeAreaView>
       <ScrollView style={{ backgroundColor: "#0096FF" }}>
         <View style={Style.container}>
           <Image style={Style.logo} source={require("../assets/logo.png")} />
-          <Text style={Style.judul}>Input pada Javascript</Text>
+          <Text style={Style.judul}>Perulangan Javascript</Text>
           <Text style={Style.isimateri}>
-            Pada tutorial sebelumnya, kita sudah belajar 4 cara menampilkan
-            output pada Javascript Salah satunya dengan menggunakan fungsi
-            alert(). Fungsi merupakan sebuah fungsi yang akan menampikan jendela
-            dialog. Lalu pertanyaanya: Bagaimana cara mengambil input? Ada dua
-            cara yang bisa kita lakukan: Menggunakan form; dan menggunakan
-            jendela dialog. Pada artikel ini, kita akan membahas yang nomer 2.
-            Yaitu: jendela dialog. Jendela dialog merupakan jendela yang
-            digunakan untuk berinteraksi dengan pengguna. Ada tiga macam jendela
-            dialog pada Javascript: Jendela dialog alert(); Jendela dialog
-            confirm(); Jendela dialog promp(); Ketiga dialog ini memiliki
-            perilaku dan kegunaan yang berbeda-beda.
+            Apa yang akan kamu lakukan saat disuruh mencetak kalimat
+            berulang-ulang? Misalnya: “Tolong tampilkan kalimat "Tutorial
+            Javascript!" di website saya sebanyak 10 kali” Mungkin kamu bisa
+            menuliskannya dengan fungsi document.write() sebanyak 10 kali Apakah
+            boleh seperti ini? Ya, boleh-boleh saja. Tapi… Bagaimana kalau nanti
+            dia mau menampilkan sebanyak 1000 kali. Pasti capek donk ngetiknya.
+            Karena itu, kita harus menggunakan perulangan.Perulangan akan
+            membantu kita mengeksekusi kode yang berulang-ulang, berapapun yang
+            kita mau. Ada lima macam bentuk perulangan di Javascript. Secara
+            umum, perulangan ini dibagi dua. Yaitu: counted loop dan uncounted
+            loop. Perbedaanya: Counted Loop merupakan perulangan yang jelas dan
+            sudah tentu banyak perulangannya. Sedangkan Uncounted Loop,
+            merupakan perulangan yang tidak jelas berapa kali ia harus
+            mengulang.Perulangan yang termasuk dalam Counted Loop:{"\n"}
+            1. Perulangan For{"\n"}
+            2. Perulangan Foreach{"\n"}
+            3. Perulangan Repeat {"\n"}
+            Perulangan yang termasuk dalam Uncounted Loop:{"\n"}
+            1. Perulangan While{"\n"}
+            2. Perulangan Do/While
           </Text>
           <Text style={Style.subjudul}>1. Dialog Alert</Text>
           <Text style={Style.isimateri}>
@@ -92,4 +101,4 @@ const Materi4 = ({ navigation }) => {
   );
 };
 
-export default Materi4;
+export default Materi7;
