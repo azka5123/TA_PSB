@@ -1,5 +1,5 @@
 import React from "react";
-import { View, ScrollView, Image} from "react-native";
+import { View, ScrollView, Alert} from "react-native";
 import { Card, Button, Avatar } from "react-native-paper";
 import Style from "../styles/Style";
 
@@ -23,46 +23,52 @@ const List_Pelajaran_HTML = ({navigation}) => {
 
       <View style={Style.card2}>
         <Card onPress={() => navigation.navigate('Materi 3 CSS')}>
-          <Card.Title title="CSS" left={LeftContent}  />
+          <Card.Title title="Sintaks dasar di CSS" left={LeftContent}  />
         </Card>
       </View>
 
       <View style={Style.card2}>
-        <Card onPress={() => navigation.navigate('Materi 4 CSS')}>
-          <Card.Title title="CSS" left={LeftContent}  />
+        <Card onPress={() => Alert.alert('coming soon')}>
+          <Card.Title title="Selector CSS" left={LeftContent}  />
         </Card>
       </View>
 
       <View style={Style.card2}>
-        <Card onPress={() => navigation.navigate('Materi 5 CSS')}>
-          <Card.Title title="CSS" left={LeftContent}  />
+        <Card onPress={() => Alert.alert('coming soon')}>
+          <Card.Title title="Menggunakan Warna di CSS" left={LeftContent}  />
         </Card>
       </View>
 
       <View style={Style.card2}>
-        <Card onPress={() => navigation.navigate('Materi 6 CSS')}>
-          <Card.Title title="CSS" left={LeftContent}  />
+        <Card onPress={() => Alert.alert('coming soon')}>
+          <Card.Title title="Menggunakan Background di CSS" left={LeftContent}  />
         </Card>
       </View>
 
       <View style={Style.card2}>
-        <Card onPress={() => navigation.navigate('Materi 7 CSS')}>
-          <Card.Title title="CSS" left={LeftContent}  />
+        <Card onPress={() => Alert.alert('coming soon')}>
+          <Card.Title title="Text formatting di CSS" left={LeftContent}  />
         </Card>
       </View>
 
       <View style={Style.card2}>
-        <Card onPress={() => navigation.navigate('Materi 8 CSS')}>
-          <Card.Title title="CSS" left={LeftContent}  />
+        <Card onPress={() => Alert.alert('coming soon')}>
+          <Card.Title title="Menggunakan font di CSS" left={LeftContent}  />
         </Card>
       </View>
 
+      <View style={Style.card2}>
+        <Card onPress={() => Alert.alert('coming soon')}>
+          <Card.Title title="Menggunakan garis di CSS" left={LeftContent}  />
+        </Card>
+      </View>
+
+      <View style={Style.card2}>
+        <Card onPress={() => Alert.alert('coming soon')}>
+          <Card.Title title="Menggunakan position di CSS" left={LeftContent}  />
+        </Card>
+      </View>
       
-      <View style={Style.card2}>
-        <Card onPress={() => navigation.navigate('Materi 9 CSS')}>
-          <Card.Title title="CSS" left={LeftContent}  />
-        </Card>
-      </View>
     </ScrollView>
   );
 };

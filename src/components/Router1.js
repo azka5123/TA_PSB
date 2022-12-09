@@ -5,7 +5,6 @@ import Home from "./Home";
 import List_Pelajaran_HTML from "./List_Pelajaran_HTML";
 import List_Pelajaran_CSS from "./List_Pelajaran_CSS";
 import List_Pelajaran_JS from "./List_Pelajaran_JS";
-import List_Pelajaran_PHP from "./List_Pelajaran_PHP";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import MateriHTML1 from '../Pelajaran_html/MateriHTML1';
@@ -21,6 +20,8 @@ import MateriHTML10 from '../Pelajaran_html/MateriHTML10';
 
 import MateriCSS1 from '../Pelajaran_css/MateriCSS1';
 import MateriCSS2 from '../Pelajaran_css/MateriCSS2';
+import MateriCSS3 from '../Pelajaran_css/MateriCSS3';
+
 
 
 import Materi1JS from '../Pelajaran_js/Materi1JS';
@@ -32,9 +33,6 @@ import Materi6JS from '../Pelajaran_js/Materi6JS';
 import Materi7JS from '../Pelajaran_js/Materi7JS';
 import Materi8JS from '../Pelajaran_js/Materi8JS';
 import Materi9JS from '../Pelajaran_js/Materi9JS';
-
-import MateriPHP1 from '../Pelajaran_php/MateriPHP1';
-
 
 const Stack = createNativeStackNavigator();
 
@@ -58,6 +56,7 @@ export default function Router1() {
           <Stack.Screen name="List Pelajaran CSS" component={List_Pelajaran_CSS} />
           <Stack.Screen name="Materi 1 CSS" component={MateriCSS1}/>
           <Stack.Screen name="Materi 2 CSS" component={MateriCSS2}/>
+          <Stack.Screen name="Materi 3 CSS" component={MateriCSS3}/>
 
 
           <Stack.Screen name="List Pelajaran JS" component={List_Pelajaran_JS} />
@@ -69,9 +68,7 @@ export default function Router1() {
           <Stack.Screen name="Materi6" component={Materi6JS}/>
           <Stack.Screen name="Materi7" component={Materi7JS}/>
           <Stack.Screen name="Materi8" component={Materi8JS}/>
-          <Stack.Screen name="Materi9" component={Materi9JS}/>
-          <Stack.Screen name="List Pelajaran PHP" component={List_Pelajaran_PHP} />
-         
+          <Stack.Screen name="Materi9" component={Materi9JS}/>         
         </Stack.Navigator>
         </NavigationContainer>
     )

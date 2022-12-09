@@ -56,21 +56,6 @@ const Home = ({ navigation }) => {
               </Card.Actions>
             </Card>
           </View>
-
-          <View  style={Style.card}>
-            <Card>
-              <Card.Title title="PHP" />
-              <Card.Cover source={require("../assets/php.png")} />
-              <Card.Content>
-                <Paragraph>
-                  Disini kalian akan belajar dasar-dasar pemrograman PHP
-                </Paragraph>
-              </Card.Content>
-              <Card.Actions>
-                <Button  onPress={() => navigation.navigate("List Pelajaran PHP")}>Pelajari</Button>
-              </Card.Actions>
-            </Card>
-          </View>
       </ScrollView>
     </SafeAreaView>
   );
